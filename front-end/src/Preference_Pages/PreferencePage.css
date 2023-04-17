@@ -1,0 +1,9 @@
+.choices-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5rem;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+}
+

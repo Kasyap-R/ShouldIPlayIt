@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+:root {
+  --offWhiteBackground: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 75px;
+}

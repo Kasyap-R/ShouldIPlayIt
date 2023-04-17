@@ -1,0 +1,33 @@
+.game-display {
+    background-color: var(--offWhiteBackground);
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 100px;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  /* Styling for Game Display */
+  
+  .game-cover {
+    width: 340px;
+  }
+  
+  .game-description-box {
+    margin-left: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  .game-descriptor {
+    margin-top: 5%;
+    font-size: 1.25rem;
+    font-weight: bolder;
+  }
+  /* End */
+  
+ 

@@ -1,0 +1,35 @@
+.choice {
+    border: 1px solid black;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+    min-height: 150px;
+    max-height: 150px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 1rem;
+    user-select: none;
+}
+
+.header {
+    align-self: center;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 1.1rem;
+}
+
+.choice:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.choice.selected{
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    border: 2px solid orange;
+}
